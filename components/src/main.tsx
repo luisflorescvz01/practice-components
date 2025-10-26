@@ -1,10 +1,10 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import CardCaroussel from './CardCaroussel'
+import GlassMorphism from './GlassMorphism'
 import './main.css'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <CardCaroussel />
+    <GlassMorphism />
   </StrictMode>,
 )
