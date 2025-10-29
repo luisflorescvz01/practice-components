@@ -1,10 +1,11 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import GlassMorphism from './GlassMorphism'
+import DualLogin from './DualLogin'
+import DualSignup from './DualSignup'
 import './main.css'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <GlassMorphism />
+    <DualSignup />
   </StrictMode>,
 )
